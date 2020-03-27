@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <link rel="stylesheet" type="text/css" href="homehack.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Bree+Serif|Ubuntu+Antiqua&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+    <div class="navbar container-fluid">
+       <div>Covid-19 Check</div>
+    </div>
+
+
+       <div class="text-center">
+      
+        <a href="#myModal" class="trigger-btn" data-toggle="modal">Login for authorized access</a>
+    </div>
+    
+  
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog modal-login">
+            <div class="modal-content">
+                <div class="modal-header">				
+                    <h4 class="modal-title">Sign In</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="/examples/actions/confirmation.php" method="post">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                <input type="text" class="form-control" name="username" placeholder="Username" required="required">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                <input type="text" class="form-control" name="password" placeholder="Password" required="required">
+                            </div>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn-sm">Submit</button>
+                        </div>
+                        <p class="hint-text"><a href="#">Forgot Password?</a></p>
+                    </form>
+                </div>
+              
+            </div>
+        </div>
+    </div>     
+
+
+
+
+
+
+
+    </div>
+    <div class="section1 ">
+        <h1>What does our app do?</h1>
+         <div class="row">
+             <div class="col">
+        <p>
+             COVID-19, the infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2),
+             was first identified in 2019 in Wuhan, China, and has since spread globally, resulting in the 2019–20 coronavirus pandemic.<br><br>
+             So we want to help and we have realised that India is especially prone to community spead as we lack the medical infrastructure to carry out enough testing.<br>
+             Our app enables you to answer some questions to figure out if you're at high risk, check travel history and allows you to mark locations of high risk people in India, to better figure out the centres of transmission of Covid-19.
+        </p>
+         </div>
+         <div class="col">
+         <img src="section1bg.svg"> 
+        </div>
+        </div>
+    </div>
+
+    <div class="container questionredirect">
+    <h1>Click to answer some questions to find out  if you're at high risk</h1>
+    <button class="btn btn-secondary btn-lg questions"><a href="questions.html">Click here</a></button>
+
+    </div>
+    
+    
+    <div class="container travelredirect">
+    <h1>Click this button to find out the past travel history of high risk people</h1>
+    <button type="button" class="btn btn-secondary btn-lg "><a href="details.html">Click here</a></button>
+</div>
+
+<div class=" container info">
+    <h1>We have prepared a one stop read for Covid-19. It covers everything from the origin of Covid-19, it's mode of spread, how to stay safe and even contact numbers. Click on the link to find out more. </h1>
+    <img class="information" src="infoimage.svg">
+    <h1><a href="Covid19.html">Info on Covid-19</a></h1>   
+</div>
+
+
+
+
+<script
+src="http://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"></script>
+<script src="questions.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>

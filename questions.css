@@ -1,0 +1,76 @@
+body{background-color:#C2DFE3;}
+
+div.navbar{
+  width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+background-color:#7389AE;
+height:100px;
+font-size:60px;
+font-family:Lobster;
+}
+
+h1 {font-family:'Bree Serif';
+  text-align: center;
+   }
+
+p{font-family:'Bree Serif';
+  text-align: center;
+  font-size:22px;}
+
+body div.navbar h1{
+text-align:center;
+padding-left:50px;
+}
+div.Back{
+  font-size: small;
+  width: 100px;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+div.Info{
+  font-size: small;
+  width: 100px;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+div.Heading{ margin-top: auto;
+              text-align: center;
+             
+}
+
+div.QuestionBox{
+  
+  border-radius: 25px;
+  height: 400px;
+  width: 75%;
+  background-color: rgb(189, 126, 231);
+}
+div.Heading h3{
+  padding-top:100px;
+}
+
+/* div.Back {
+  font-style: bold;
+  font-size: x-large;
+  margin-top:20px ;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 60px;
+  width: 120px; */
+/* 
+} */
+#choice {
+  font-style: bold;
+  font-size: x-large;
+  margin-top:20px ;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 60px;
+  width: 120px;
+
+}
+

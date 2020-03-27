@@ -1,0 +1,186 @@
+<html>
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="homehack.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Bree+Serif|Ubuntu+Antiqua&display=swap" rel="stylesheet">
+    </head>
+<body class="inputform">
+    <div class="section3">
+        <div class="container-fluid section3ii">
+        <h1>If you have been identified as high risk, please fill out these details</h1>
+        <p>This is to provide a database to government and law enforcement,so that they can reach out to you and make sure you're safe and handle the whole situation. Don't worry your data is safe with us and will not be publicly available :) </p>
+    </div>
+    <h1>Please fill out this form</h1>
+        <form>
+            <div class="form-row ">
+              <div class="form-group col-md-6">
+                <label for="inputname">Name</label>
+                <input type="Name" class="form-control" id="inputname">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputage">Age</label>
+                <input type="number" class="form-control" id="inputage">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  
+                    <option>	Andhra Pradesh </option>	
+                    <option>  Arunachal Pradesh	
+                   <option>Assam</option>	
+                    <optionBihar></optionBihar>		
+                    <option>Chhattisgarh</option>		
+                    <option>Goa	</option>	
+                    <option>Gujarat	</option>	
+                    <option>Haryana	</option>	
+                    <option>Himachal Pradesh</option>	
+                    <option>Jharkhand	</option>	
+                    <option>Karnataka	</option>	
+                    <option>Kerala	</option>	
+                    <option>Madhya Pradesh	</option>	
+                    <option>Maharashtra</option>	
+                    <option>Manipur	</option>	
+                    <option>Meghalaya	</option>	
+                    <optionMizoram></option>		
+                    <option>Nagaland</option>	
+                    <option>Odisha</option>		
+                    <option>Punjab</option>	
+                    <option>Rajasthan</option>		
+                    <option>Sikkim</option>	
+                    <option>Tamil Nadu</option>	
+                    <option>Telangana</option>		
+                    <option>Tripura	</option>	
+                    <option>Uttar Pradesh</option>		
+                    <option>Uttarakhand	Dehradun</option>	
+                    <option>West Bengal	</option>
+
+                    <option>   Andaman and Nicobar Islands</option>
+                    <option>   Chandigarh</option>
+                    <option>   Dadar and Nagar Haveli</option>
+                    <option>   Daman and Diu</option>
+                    <option>     Delhi</option>
+                    <option>   Lakshadweep</option>
+                     <option>     Puducherry</option>
+                    </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  This information is accurate and may be used by the government to help me
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-secondary">Submit</button>
+          </form>
+    <img class="formimg" src="formfill.jpg">
+ 
+    </div>
+
+    <div class="container section4">
+    <h1>Enter details of your previous travel history.</h1> <br>
+    <p>The police could use this to prepare a route map, if ever necessary and do contact tracing.<br> List out locations you went to, like Restaurants,Stores etc.</p>
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Have you travelled outside in the last 2 weeks?</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>no</option>
+          <option>yes</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Have you been to any large gatherings?</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>no</option>
+          <option>yes</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Enter places you have been to, if any with the time</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </form>
+    </div>
+
+    <div class="container section5">
+    <h1>Mark your quarantined location on google maps so that people can get an idea of areas of high risk for Covid-19 spread</h1>
+    <h1>Enter your coordinates</h1>
+    <form>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" id="lat" placeholder="Latitude">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" id="long" placeholder="Longitude">
+        </div>
+        <button type="button" class="btn btn-secondary" onclick="getlat();getlong()">Submit</button>
+      </div>
+    </form>
+   
+    <div id="map"></div>
+    <script>
+
+        function getlat(){
+        var latitu= document.getElementById('lat').value;        
+        return latitu;
+      }
+       function getlong(){
+        var longitu= document.getElementById('long').value;
+        return longitu;
+       } 
+      
+      function initMap() {
+        
+        var latitu1=getlat().value;
+        var longitu1=getlong().value;
+        var markerplace={lat:latitu1,lng:longitu1}; 
+        var kochi = {lat:9.931233, lng:76.2673};
+        var kasargod={lat:12.4996, lng:74.9869};
+        var trivandrum={lat:8.5241, lng:76.9366};
+        var delhi={lat:28.7041,lng:77.1025}; 
+        var mumbai={lat:19.0760,lng:72.8777}; 
+      
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 4, center: kochi});
+        
+        var marker = new google.maps.Marker({position: markerplace, map: map});
+        var marker = new google.maps.Marker({position: kochi, map: map});
+        var marker = new google.maps.Marker({position: kasargod, map: map});
+        var marker = new google.maps.Marker({position: trivandrum, map: map});
+        var marker = new google.maps.Marker({position: delhi, map: map});
+        var marker = new google.maps.Marker({position: mumbai, map: map});
+
+      }
+          </script>
+          <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFLha0QDaiPwymEfo9q2Da8tkoOjhWBxg&callback=initMap">
+          </script>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

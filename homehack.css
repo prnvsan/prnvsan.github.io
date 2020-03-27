@@ -1,0 +1,253 @@
+body{background-color:#C2DFE3;}
+
+div.navbar{
+width:100%;
+display:inline-block;
+text-align:center;
+padding:0;  
+background-color:#7389AE;
+height:100px;
+font-size:60px;
+font-family:Lobster;
+}
+
+h1 {font-family:'Bree Serif';
+   }
+
+p{font-family:'Bree Serif';
+  font-size:25px;}
+
+body div.navbar h1{
+text-align:center;
+padding-left:50px;
+}
+
+div.section1{ margin-left: 30px;
+              margin-top:50px;
+             
+}
+
+div.section1 h1{ font-size:48px; }
+
+div.section1 img{
+    padding-bottom:320px;
+    float:right;
+    height:600px;
+    width:650px;
+}
+
+div.section1 p{ margin-top:20px;
+}
+
+div.section3 h1{ font-size:48px;}
+
+div.section3 p{margin-top:30px;}
+
+button.btn.risk{  margin-left:500px;           
+       }
+
+button.btn a{ text-decoration: none;
+              color:#ffff;
+}
+
+label{font-family:'Bree-Serif';
+      font-weight:540;
+      font-size:18px;}
+
+form {display: inline-block;
+  max-width: 100%;}
+
+div.section3 img.formimg{float:right;
+                         border-radius:5%;}
+
+div.section3 form{margin:20px;}
+
+body.inputform{background-color:#ffe6f0;}
+
+div.section3ii{background-color:rgb(214, 71, 97);}
+
+div.section3 button.btn{margin-right:450px;}
+
+body div.navbar h1{
+  text-align:center;
+  padding-left:50px;
+  }
+  
+  div.Heading{ margin-left: 30px;
+                margin-top:50px;
+                text-align: center;
+  
+  }
+  
+  div.QuestionBox{
+    /* padding-top: 10px; */
+    border-radius: 25px;
+    height: 300px;
+    width: 700px;
+    background-color: rgb(240, 132, 132);
+  }
+  div.Heading h3{
+    padding-top:75px;
+  }
+  
+  div.Heading button{
+    font-style: bold;
+    font-size: x-large;
+    margin-top:20px ;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 60px;
+    width: 120px;
+  
+  }
+
+.modal-login {
+  width: 350px;
+}
+.modal-login .modal-content {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+}
+.modal-login .modal-header {
+  border-bottom: none;
+      position: relative;
+  justify-content: center;
+}
+.modal-login .close {
+      position: absolute;
+  top: -10px;
+  right: -10px;
+}
+.modal-login h4 {
+  color: #636363;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 0;
+}
+.modal-login .modal-content {
+  color: #999;
+  border-radius: 1px;
+    margin-bottom: 15px;
+      background: rgb(241, 238, 238);
+  border: 1px solid #f3f3f3;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      padding: 25px;
+  }
+.modal-login .form-group {
+  margin-bottom: 20px;
+}
+.modal-login label {
+  font-weight: normal;
+  font-size: 13px;
+}
+.modal-login .form-control {
+  min-height: 38px;
+  padding-left: 5px;
+  box-shadow: none !important;
+  border-width: 0 0 1px 0;
+  border-radius: 0;
+}
+.modal-login .form-control:focus {
+  border-color: #ccc;
+}
+.modal-login .input-group-addon {
+  max-width: 42px;
+  text-align: center;
+  background: none;
+  border-width: 0 0 1px 0;
+  padding-left: 5px;
+  border-radius: 0;
+}
+  .modal-login .btn {        
+      font-size: 16px;
+      font-weight: bold;
+  background: #19aa8d;
+      border-radius: 3px;
+  border: none;
+  min-width: 140px;
+      outline: none !important;
+  }
+.modal-login .btn:hover, .modal-login .btn:focus {
+  background: #179b81;
+}
+.modal-login .hint-text {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 13px;
+}
+.modal-login .modal-footer {
+  color: #999;
+  border-color: #dee4e7;
+  text-align: center;
+  margin: 0 -25px -25px;
+  font-size: 13px;
+  justify-content: center;
+}
+.modal-login a {
+  color: #fff;
+  text-decoration: underline;
+}
+.modal-login a:hover {
+  text-decoration: none;
+}
+.modal-login a {
+  color: #19aa8d;
+  text-decoration: none;
+}	
+.modal-login a:hover {
+  text-decoration: underline;
+}
+.modal-login .fa {
+  font-size: 21px;
+}
+.trigger-btn {
+  display: inline-block;
+  margin: 100px auto;
+}
+div.text-center{  font-size:20px;
+                  padding-bottom:1000px;
+                  float:right;
+                  position:absolute;
+                  top:0px;
+                  right:0px;
+                  }
+
+ button.button1{ height:50px;
+                 width:50px; }
+div.text-center a{text-decoration:none;
+                  font-family:'Bree Serif';
+                  font-size:30px;}
+
+div.redirect h1{margin-top:60px;
+                text-align:center ;}
+
+ div.travelredirect a{text-decoration:none;
+                      font-family:'Bree Serif';                                        
+                    }   
+
+div.travelredirect button{margin-left:500px;}      
+
+div.travelredirect h1{margin-top:310px;}
+
+div.info h1{margin-top:300px;
+            text-align:center;}
+
+div.info img.information{float: right;}
+
+div.info a{text-decoration:none;
+           margin-right:100px;
+           padding-top:300px;
+           }
+
+#map{     width: 100%;
+          height: 700px;
+          background-color: grey;}
+
+div.section5 h1{margin-top:50px;}
+
+div.questionredirect button.questions{margin-left:500px;}
+
+div.risk1 button{margin-left:800px;}
+
+div.risk1 button{text-decoration:none;}

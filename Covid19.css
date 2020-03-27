@@ -1,0 +1,146 @@
+body{margin:0;
+     background-color:#ffe6f0;}
+div{margin:0;}
+
+div.clas1{background-color:rgb(214, 71, 97);
+          margin:0;
+          padding:0;
+          
+}
+
+h1.header1{text-align:center;
+           font-size:60px;
+           font-family:Lobster;
+           padding-top:5px;
+        }
+
+h1.header2{text-align:center;
+          font-size:60px;
+          padding:100px;
+          font-family:"Lobster";
+          padding-top:350px;
+          margin-left:500px;}
+
+div.section1 p{ font-size:50px;
+                font-family:"Bree Serif";
+                font-weight:300px;   
+                font-size:30px;
+                padding:150px;           
+    }
+div.clas1 img{float:right;
+              padding:80px;
+              margin-right:30px;
+              }
+
+div.clas1 h1{text-align:center;
+             font-size:70px;
+             padding:100px;
+             font-family:"Lobster";
+             }
+div.section1{display:flex;}
+
+div.section1 p{ font-size:30px;
+                font-family:"Bree Serif";
+                font-weight:300px;   
+                flex:1; 
+                font-size:30px;
+                padding:150px;           
+                }
+
+div.section2 h1{margin-top:95px; 
+                font-size:50px;
+                font-family:"Bree Serif";}
+
+div.section1 img{flex:0.5;
+                 margin:0;}
+
+div.section2 p{margin:200px;
+               padding-left:200px;
+               font-size:30px;
+               font-family:"Bree Serif";
+               font-weight:300px;
+                  }
+div.section2 img{float:right;}
+
+div.section3 h1{ font-size:50px;
+                 font-family:"Bree Serif";
+                 text-align:center;}
+
+div.section3 h4{font-size:40px;
+                font-family:"Bree Serif";
+                margin:auto;
+                text-align:center}
+
+div.section3 p{ margin:90px;
+                padding-left:60px;
+                font-size:30px;
+                font-family:"Bree Serif";
+                font-weight:300px;
+                }
+
+div.section3 img{float:right;
+                 height:400px;
+                 width:700px;
+                 margin-top:300px;
+                 border-radius:10px;  }      
+
+div.section3ii p,li{margin:20px;
+                padding-left:60px;
+                font-size:30px;
+                font-family:"Bree Serif";
+                font-weight:300px;} 
+
+div.section3ii img.c1{float:right;
+                      margin-top:400px;
+                      border-radius:10px}
+
+div.section4 h1 {font-size:50px;
+                 font-family:"Bree Serif";
+                 text-align:center}
+
+
+div.section4 p{margin:90px;
+               padding-left:60px;
+               font-size:30px;
+               font-family:"Bree Serif";
+               font-weight:300px;}
+
+div.section4 img.riskf{float:right;
+                       margin-top:100px;
+                       border-radius:10px;}               
+
+div.section4 img.c2{margin-left:300px;
+                    margin-top:30px;}
+
+div.section5 h1{text-align:center;
+                font-size:50px;
+                font-family:"Bree Serif";
+                 }
+
+
+
+div.section5 h1.myth{font-size:50px;
+                     font-family:"Bree Serif";
+                     text-align:center;
+                     margin-left:100px;}
+
+div.section5 img.c3,img.c4,img.c5,img.c6,img.c7{ margin-left:400px;
+                                                 height:400px}
+
+                                                    
+div.end h1{margin-top:95px; 
+           font-size:50px;
+           font-family:"Bree Serif";
+           text-align:center;}
+
+div.footer{background-color:rgb(214, 71, 97);
+           height:100px;
+           }
+div.footer h4{margin-top:95px; 
+              padding-top:25px; ;
+              font-size:25px;
+              font-family:"Bree Serif";
+              text-align:center;}
+                    
+
+

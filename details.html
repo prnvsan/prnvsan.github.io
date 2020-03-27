@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>Details about Corona Patients</title>
+    <link rel="stylesheet" type="text/css" href="details.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Bree+Serif|Ubuntu+Antiqua&display=swap" rel="stylesheet">
+    <script language="Javascript" src="jquery.js"></script>
+    <script type="text/JavaScript" src='state.js'></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="navbar container-fluid">
+      <div>Covid-19 Check</div>
+    </div>
+    <div class='resp_code frms'>
+      <h1>Check the travel history of Corona patients</h1>
+      <p></p>
+      <h4>Choose a state and district</h4>
+      
+      <div id="selection">
+        <select id="listBox" onchange='selct_district(this.value)'></select>
+        <select id='secondlist' onchange="toggleShowTable()"></select>
+      </div>
+      <!-- <button type="button" name="answer" value="Show Div" onclick="toggleShowTable()" >Show Table</button> -->
+  
+      <div id="welcomeDiv"  style="display:none;" class="answer_list">
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Patient Code</th>
+            <th scope="col">Place</th>
+            <th scope="col">Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">P1</th>
+            <td>Best Bakers</td>
+            <td>2:00-4:00 PM</td>
+          </tr>
+          <tr>
+            <th scope="row">P1</th>
+            <td>Nithya Hypermarket</td>
+            <td>6:00-7:00 PM</td>
+          </tr>
+          <tr>
+            <th scope="row">P2</th>
+            <td>PVR Cinemas</td>
+            <td>9:00-11:30 PM</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <a href="homehack.html">
+    <div id="Back">
+      <button type="button" class="btn btn-secondary btn-lg">Back to home</button>
+    </div>
+  </a>
+      <div id="dumdiv" align="center" style=" font-size: 10px;color: #dadada;">
+        <a id="dum" style="padding-right:0px; text-decoration:none;color: white;text-align:center;" href="http://www.hscripts.com">&copy;</a>
+      </div>
+    </div>
+  </body>
+</html>
+
